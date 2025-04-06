@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+body{
+    background-color: #1d2626;
+    font-family: "Underdog", sans-serif;
+}
+.wrapper{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 8em;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+.loader{
+    display: none;
+    justify-content: center;
+    margin-top: 12em;
+    img{
+        width: 400px;
+    }
+}
+.wr-person{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid white;
+    position: relative;
+    top: 7vh;
+    left: 10vh;
+    p{
+        font-size: 20px;
+    }
+}
+button{
+    position: absolute;
+    bottom: 0px;
+    left: 18em;
+    bottom: 8em;
+    padding: 10px;
+}
